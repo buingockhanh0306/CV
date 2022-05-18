@@ -1,0 +1,20 @@
+@media only screen and (max-width: 46.1875em) {
+  /* .left-column {
+    display: none;
+  }
+  .right-column {
+    margin: 0;
+  }
+  .right-column_container {
+    margin: 0;
+    padding: 0;
+  }
+  .company-time {
+    flex-direction: column;
+  }
+  html {
+    font-size: 50%;
+  } */
+}
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
