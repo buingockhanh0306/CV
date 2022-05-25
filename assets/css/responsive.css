@@ -1,9 +1,10 @@
 @media only screen and (max-width: 46.1875em) {
-  /* .left-column {
+  .left-column {
     display: none;
   }
   .right-column {
-    margin: 0;
+    margin: 80px 20px 0 20px;
+    width: 100%;
   }
   .right-column_container {
     margin: 0;
@@ -14,7 +15,38 @@
   }
   html {
     font-size: 50%;
-  } */
+  }
+  .header-mobile {
+    display: flex;
+  }
+  .link-no-active {
+    font-size: 3rem;
+    line-height: 0.6;
+  }
 }
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .left-column {
+    display: none;
+  }
+  .right-column {
+    margin: 80px 20px 0 20px;
+    width: 100%;
+  }
+  .right-column_container {
+    margin: 0;
+    padding: 0;
+  }
+  .company-time {
+    flex-direction: column;
+  }
+  html {
+    font-size: 50%;
+  }
+  .header-mobile {
+    display: flex;
+  }
+  .link-no-active {
+    font-size: 3rem;
+    line-height: 0.6;
+  }
 }
