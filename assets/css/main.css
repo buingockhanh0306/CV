@@ -121,6 +121,10 @@
 
 .job-address-name {
   display: inline-block;
+  color: var(--text-color);
+}
+.view:hover{
+  color: var(--color-link);
 }
 .about-link {
   color: var(--primary-color);
