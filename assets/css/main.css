@@ -262,6 +262,7 @@
 
 .project-item {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -270,9 +271,10 @@
   font-size: 1.8rem;
   margin-right: 4px;
 }
-.project-item__name {
+.project-item__description {
   font-size: 2.2rem;
   font-weight: 300;
+  margin-left: 6px;
 }
 .project-item__link {
   font-size: 2.2rem;
@@ -285,6 +287,6 @@
   font-weight: 300;
   line-height: 1.4;
 }
-.break {
-  height: 40rem;
+.hobby-image {
+  margin: 0 auto;
 }

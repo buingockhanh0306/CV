@@ -12,32 +12,12 @@ for (var i = 0; i < link.length; i++) {
     });
   }
 }
-// const handleScroll = (n) => {
-//   for (let i = n; i <= n; i++) {
-//     for (let j = 0; j < link.length; j++) {
-//       link[i].classList.add("active");
-//       if (j !== i) {
-//         link[j].classList.remove("active");
-//       }
-//     }
-//   }
-// };
-// window.addEventListener("scroll", function (e) {
-//   console.log(this.scrollY);
-//   if (this.scrollY >= 0) {
-//     handleScroll(0);
-//   } else if (this.scrollY >= 300) {
-//     handleScroll(1);
-//   } else if (this.scrollY >= 600) {
-//     handleScroll(2);
-//   } else if (this.scrollY >= 900) {
-//     handleScroll(3);
-//   } else if (this.scrollY >= 1200) {
-//     handleScroll(4);
-//   } else if (this.scrollY >= 1500) {
-//     handleScroll(5);
-//   }
-// });
+const experience = document.querySelector("#experience").offsetTop;
+const education = document.querySelector("#education").offsetTop;
+const skills = document.querySelector("#skills").offsetTop;
+const projects = document.querySelector("#projects").offsetTop;
+const hobby = document.querySelector("#hobby").offsetTop;
+const end = document.querySelector("#end").offsetTop;
 
 btn.addEventListener("click", function () {
   nav.classList.toggle("nav-mobile__active");
