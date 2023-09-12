@@ -12,6 +12,21 @@ for (var i = 0; i < link.length; i++) {
     });
   }
 }
+// window.addEventListener("click", function () {
+//   link.map((item) => {
+//     const hrefItem = item.href.slice(item.href.indexOf("#"));
+//     const hrefWindow = window.location.href.slice(
+//       window.location.href.indexOf("#")
+//     );
+//     if (hrefItem === hrefWindow) {
+//       console.log(item.classList);
+//       item.classList.add("active");
+//     } else {
+//       item.classList.remove("active");
+//     }
+//   });
+// });
+// console.log(link[0].href.slice(link[0].href.indexOf("#")));
 const experience = document.querySelector("#experience").offsetTop;
 const education = document.querySelector("#education").offsetTop;
 const skills = document.querySelector("#skills").offsetTop;
