@@ -97,6 +97,7 @@
 .about {
   margin: 0;
 }
+
 .about-name {
   font-size: 9rem;
   color: var(--text-color);
@@ -286,6 +287,9 @@
   color: var(--primary-color);
   font-weight: 500;
 }
+.project-item__link:hover {
+  color: var(--color-link);
+}
 .hobby-text {
   font-size: 2.2rem;
   color: var(--text-color);
@@ -294,4 +298,40 @@
 }
 .hobby-image {
   margin: 0 auto;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--color-link);
+  border-radius: 50%;
+  animation: bounce 2s ease infinite;
+}
+.download i {
+  color: var(--color-active);
+}
+.download:hover {
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
